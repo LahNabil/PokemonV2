@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Poke1Activity">
-
+    tools:context=".Poke6Activity">
     <GridLayout
         android:layout_width="match_parent"
         app:layout_constraintStart_toEndOf="parent"
@@ -26,16 +25,16 @@
             app:cardElevation="0dp"
             app:cardBackgroundColor="#000000"
             android:layout_margin="5dp">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/poke1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/poke6">
 
-        </ImageView>
-        </RelativeLayout>
+                </ImageView>
+            </RelativeLayout>
         </androidx.cardview.widget.CardView>
     </GridLayout>
 
